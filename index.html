@@ -107,8 +107,6 @@
         let total = 0;
         document.getElementById("submit").addEventListener("click", (e) => {
           e.preventDefault();
-          console.log(amount.value);
-          console.log(price.value);
           
           if (description.value !== "" && amount.value !== "" && price.value !== "") {
             const tbody = document.getElementById("tbody");
